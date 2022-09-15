@@ -10,7 +10,10 @@ Given a training data set $V=\{v_1,\cdots,v_n\} \in \mathbb{R}^m$ of n data samp
   
 
 # Experiments performed :
-- Iris data 
+## Iris data 
+Image below shows the selected prototype (**X**) to represent the data samples (filled **o**).
+- Unlike k-Nearest Neighbor storing whole data for prediction, in prototype selection scheme the condensed form of training data samples (prototypes) are only require to be stored saving large amount of memory.
+- For prediction it only utlises the distances to the selected prototypes (saving time required to compare whole data sample)
 ![<img src="https://github.com/amitk0693/Prototype_Selection/blob/2139abc148490df75f42f6aacfa5a602116b2cf0/Iris.png" width="100" height="100">](https://github.com/amitk0693/Prototype_Selection/blob/91967ce4c3b752ca6613f8af03b9609e0752f87a/Iris.png)
 
 
