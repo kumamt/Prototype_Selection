@@ -9,7 +9,7 @@ Given a training data set $V=\{v_1,\cdots,v_n\} \in \mathbb{R}^m$ of n data samp
 # Generalised Learning Vector Quantisation 
   
 
-# Experiments performed :
+# Experiments:
 ## Iris data 
 Image below shows the selected prototype (**X**) to represent the data samples (filled **o**).
 - Unlike k-Nearest Neighbor storing whole data for prediction, in prototype selection scheme the condensed form of training data samples (prototypes) are only require to be stored saving large amount of memory.
