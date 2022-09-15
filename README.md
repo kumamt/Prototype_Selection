@@ -11,7 +11,7 @@ Given a training data set $V=\{v_1,\cdots,v_n\} \in \mathbb{R}^m$ of n data samp
 
 # Experiments performed :
 - Iris data 
-<img src="https://your-image-url.type](https://github.com/amitk0693/Prototype_Selection/blob/c2d1a01016d2f555faf250539cc42aee9bde4bd8/Iris.png" width="100" height="100">
+![<img src="https://your-image-url.type](https://github.com/amitk0693/Prototype_Selection/blob/c2d1a01016d2f555faf250539cc42aee9bde4bd8/Iris.png" width="100" height="100">](https://github.com/amitk0693/Prototype_Selection/blob/91967ce4c3b752ca6613f8af03b9609e0752f87a/Iris.png)
 
 
 
