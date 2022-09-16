@@ -7,7 +7,7 @@ Given a training data set $V=\{v_1,\cdots,v_n\} \in \mathbb{R}^m$ of n data samp
 - Prototypes should cover few training samples from another class and,
 - The number of prototypes needed to cover data samples of a particular class should be as few as possible (also called sparsity).
 
-The prototypes selected in PS are actual data points as they will add more interpretable meaning to the model. PS scheme is formed using Set Cover Integer problem. For a given radius of an epsilon ball (centered at chosen prototype) PS outputs minimum number of balls required to form a Cover while preserving the properties of prototypes. For further reading and mathematical understanding please refer [J. Bien and R. Tibshirani](https://arxiv.org/pdf/1202.5933.pdf).
+The prototypes selected in PS are actual data points as they will add more interpretable meaning to the model. PS scheme intially is formed using Set Cover Integer problem. For a given radius of an epsilon ball (centered at chosen prototype) PS outputs minimum number of balls required to form a Cover while preserving the properties of prototypes. Then, is tranformed into _l_-prize collection problem for Integer optimization. For further reading and mathematical understanding please refer [J. Bien and R. Tibshirani](https://arxiv.org/pdf/1202.5933.pdf).
 
 # Generalised Learning Vector Quantisation (GLVQ)
   
