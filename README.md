@@ -16,7 +16,7 @@ For further reading and mathematical understanding please refer [J. Bien and R. 
 # Generalised Learning Vector Quantisation (GLVQ)
 In order to understand the GLVQ, the prototype set has been considered as  $W = \{w_1,\cdots,w_l\}$ for each class in the dataset where, $l\in \{1,\cdots,L\}$ and $L$ is the set of class labels. For comparison of samples among the prototypes, a distance matrix has been represented by $**D**_{(i,j)} = d(v_i,w_j)$ where $d$ is a differentiable dissimilarity measure. Next to this, a classifier (relative distance difference) function for GLVQ is defined as,
 
-![<img src="https://github.com/amitk0693/Prototype_Selection/blob/38ebb6b86a97a01ae6943c9210dd0c1452bed4c2/GLVQ.png" width="100" height="100">]
+![<img src="https://github.com/amitk0693/Prototype_Selection/blob/38ebb6b86a97a01ae6943c9210dd0c1452bed4c2/GLVQ.png" width="100" height="500">]
 
 where, $w^+$ is the best matching correct prototype with $c(w^+)=c(v)$ and $w^-$ is the closest prototype belonging to the wrong or incorrect class $c(w^+)\neq c(v)$. For correct classification the distance $d(v, w^+)$ of the data point belonging to the correct class prototype should be smaller than the distance $d(v, w^-)$ of the prototype belonging to the incorrect class. In this case, the output of the classifier function are negative values, and hence, the cost function of $E_{GLVQ}$ is then an approximation of the overall classification error. 
 
