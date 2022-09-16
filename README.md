@@ -23,10 +23,12 @@ where, $w^+$ is the best matching correct prototype with $c(w^+)=c(v)$ and $w^-$
 For further reading and udestanding please refer [A. Sato and K. Yamada](https://proceedings.neurips.cc/paper/1995/file/9c3b1830513cc3b8fc4b76635d32e692-Paper.pdf)
 
 # Experiments:
-## Iris data 
+## Iris data
+
 Image below shows the selected prototype (**X**) to represent the data samples (filled **o**).
 - Unlike k-Nearest Neighbor storing whole data for prediction, in prototype selection scheme the condensed form of training data samples (prototypes) are only require to be stored saving large amount of memory.
 - For prediction it only utlises the distances to the selected prototypes (saving time required to compare whole data sample)
+
 !<img src="https://github.com/amitk0693/Prototype_Selection/blob/2139abc148490df75f42f6aacfa5a602116b2cf0/Iris.png">
 
 
