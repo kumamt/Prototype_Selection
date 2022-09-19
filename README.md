@@ -35,6 +35,6 @@ Image below shows the selected prototype (**X**) to represent the data samples (
     <td>Comparison of GLVQ and GLVQ-PS</td>
   </tr>
   <tr>
-    <td><center><img src="https://github.com/amitk0693/Prototype_Selection/blob/2139abc148490df75f42f6aacfa5a602116b2cf0/Iris.png" width=380 height=280 </center></td>
+    <td><p align="center"><img src="https://github.com/amitk0693/Prototype_Selection/blob/2139abc148490df75f42f6aacfa5a602116b2cf0/Iris.png" width=380 height=280 p></td>
   </tr>
  </table>
