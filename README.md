@@ -11,6 +11,10 @@ The prototypes selected in PS are actual data points as they will add more inter
 - Greedy Approach (recommended for large dataset)
 - Randommized Rounding Algorithm
 
+![Visualisation of PS scheme for synthetic data (sklean moon data) for the chosen
+value of e. A filled circle represents data points, and ball is represented by an
+unfilled circle centered at a data point (denoted by X) chosen as a prototype](epsilon.png){#fig:epsilon}
+
 For further reading and mathematical understanding please refer [J. Bien and R. Tibshirani](https://arxiv.org/pdf/1202.5933.pdf).
 
 # Generalised Learning Vector Quantisation (GLVQ)
