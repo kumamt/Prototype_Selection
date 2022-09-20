@@ -11,9 +11,7 @@ The prototypes selected in PS are actual data points as they will add more inter
 - Greedy Approach (recommended for large dataset)
 - Randommized Rounding Algorithm
 
-![Visualisation of PS scheme for synthetic data (sklean moon data) for the chosen
-value of e. A filled circle represents data points, and ball is represented by an
-unfilled circle centered at a data point (denoted by X) chosen as a prototype](<img src ="https://github.com/amitk0693/Prototype_Selection/blob/6f8219150787bc4bfd964dcd30310cb61e997d97/epsilon.png" width="300" height="200">)
+<img src ="https://github.com/amitk0693/Prototype_Selection/blob/6f8219150787bc4bfd964dcd30310cb61e997d97/epsilon.png" width="300" height="200">
 
 For further reading and mathematical understanding please refer [J. Bien and R. Tibshirani](https://arxiv.org/pdf/1202.5933.pdf).
 
